@@ -4,12 +4,22 @@
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
-    padding-bottom: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
 }
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .display {
     margin-top: 25px;
     height: 100px;
-    width: 450px;
+    width: 250px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -19,4 +29,108 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+  }
+
+  .BelowDisplay{
+    display: flex;
+    justify-content: center;
+  }
+
+  .SpecialAndNumber{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+  }
+
+  .NumberContainer {
+      width: 100%;
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .individualNumberContainer{
+    padding: 0.25rem;
+  }
+
+  .number_button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #c00025;
+    background-color: #fff;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 0.25rem #999;
+  }
+  
+  .number_button:hover {
+      background-color: #c00025;
+      color: #fff;
+    
+}
+  
+  .number_button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .individualOperatorContainer{
+    padding: 0.25rem;
+  }
+
+  .operator_button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #c00025;
+    background-color: #fff;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 0.25rem #999;
+
+  }
+
+  .operator_button:hover{
+    background-color: #c00025;
+      color: #fff;
+  }
+
+  .operator_button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .SpecialsContainer{
+      display: flex;
+  }
+
+  .individualSpecialsContainer{
+    padding: 0.25rem;
+  }
+
+  .specials_button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #c00025;
+    background-color: #fff;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 0.25rem #999; 
   }
